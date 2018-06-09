@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Quantico');
+
+section{
+    padding: 10px 0;
+    background: #09e694;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider{
+    width: 6px;
+    height: 80%;
+    background: white;
+    border-radius: 5px;
+    transform: rotate(7deg);
+    position: relative;
+}
+
+.divider #title{
+    position: absolute;
+    transform: rotate(-7deg);
+    white-space: nowrap;
+    font-size: 30px;
+    top: -36px;
+    left: -135px;
+    font-weight: bold;
+    background: white;
+    color: #0ce694;
+    padding: 15px 27px;
+    border-radius: 36px;
+}
+
+.design{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.design .content{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: rgba(0,0,0,0.25) 5px 4px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.development .content{
+    font-family: 'Quantico', sans-serif;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-shadow: rgba(0,0,0,0.25) 5px 4px 15px;
+}
+
+.development{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.skill-dev{
+    position: absolute;
+}
+
+.skill-dev img{
+    width: 100%;
+}
+
+#angular{
+    width: 90px;
+    top: 109px;
+    right: 240px;
+}
+
+#css{
+    width: 78px;
+    bottom: 45px;
+    left: 48%;
+}
+
+#firebase{
+    width: 90px;
+    top: 232px;
+    left: 72px;
+}
+
+#html{
+    width: 65px;
+    top: 198px;
+    right: 98px;
+}
+
+#js{
+    width: 90px;
+    bottom: 151px;
+    left: 132px;
+}
+
+#node{
+    width: 90px;
+    top: 137px;
+    left: 182px;
+}
+
+#pwa{
+    width: 90px;
+    bottom: 183px;
+    right: 120px;
+}
+
+.skill-design{
+    position: absolute;
+}
+
+.skill-design img{
+    width: 100%;
+}
+
+#ai{
+    width: 93px;
+    top: 24%;
+    left: 40%;
+}
+
+#ae{
+    width: 93px;
+    bottom: 24%;
+    left: 40%;
+}
+
+#ps{
+    width: 93px;
+    top: 43%;
+    left: 10%;
+}
+
+#c4d{
+    width: 93px;
+    top: 43%;
+    right: 12%;
+}
