@@ -11,7 +11,7 @@ section{
 
 .divider{
     width: 6px;
-    height: 80%;
+    height: 60%;
     background: white;
     border-radius: 5px;
     transform: rotate(7deg);
@@ -23,7 +23,7 @@ section{
     transform: rotate(-7deg);
     white-space: nowrap;
     font-size: 30px;
-    top: -36px;
+    top: -80px;
     left: -135px;
     font-weight: bold;
     background: white;

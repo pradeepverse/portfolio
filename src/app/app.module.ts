@@ -11,6 +11,8 @@ import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { ProfessionalExpComponent } from './professional-exp/professional-exp.component';
 import { AcademicDetailsComponent } from './academic-details/academic-details.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SkillsComponent } from './skills/skills.component';
     PersonalInfoComponent,
     ProfessionalExpComponent,
     AcademicDetailsComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,194 @@
+<section>
+  <div class="heading">
+    <div class="title" (click)="activeState='dev'" [ngClass]="{active: activeState === 'dev'}">
+      <fa-icon [icon]="faCode"></fa-icon>
+      Development
+    </div>
+    <div class="title" (click)="activeState='design'" [ngClass]="{active: activeState === 'design'}">
+      <fa-icon [icon]="faPencilAlt"></fa-icon>
+      Design
+    </div>
+  </div>
+
+  <div class="project-container" *ngIf="activeState === 'dev'">
+
+    <div class="img-container">
+      <div class="img-title">
+        Personal Dev Projects
+      </div>
+      <img class="flip" src="assets/images/sitting-dev.png" alt="Developer Image">
+    </div>
+
+    <a class="no-style-anchor" href="https://pradeeprajr93.github.io/crypto-ticker/" target="_blank">
+      <div class="project">
+        <div class="img-holder">
+          <img src="assets/images/crypto.jpg" alt="Crypto Currencies">
+        </div>
+        <div class="heading">
+          Crypto Ticker
+        </div>
+        <div class="sub-heading">
+          Real-time Crypto Currency Ticker, provides current market price of top 10 crypto currencies. <br> This is a Progressive
+          Web Application (PWA), add it to your mobile home screen.
+        </div>
+        <div class="tags">
+          <span class="tag">
+            Angular 4
+          </span>
+          <span class="tag">
+            PWA
+          </span>
+        </div>
+        <a href="https://github.com/pradeeprajr93/crypto-ticker" target="_blank">
+          <div class="src">
+            <fa-icon [icon]="faGithub"></fa-icon>
+          </div>
+        </a>
+      </div>
+    </a>
+
+    <a class="no-style-anchor" href="https://pradeeprajr93.github.io/quizzer/home" target="_blank">
+      <div class="project">
+        <div class="img-holder">
+          <img src="assets/images/quizzer.png" alt="Crypto Currencies">
+        </div>
+        <div class="heading">
+          Quizzer
+        </div>
+        <div class="sub-heading">
+          Simple Quiz Application. Allows you to create and take quiz, and share it among your friends. <br>
+          It's completely responsive and works fine with all devices.
+        </div>
+        <div class="tags">
+          <span class="tag">
+            Angular 6
+          </span>
+          <span class="tag">
+            Firebase Database
+          </span>
+        </div>
+        <a href="https://github.com/pradeeprajr93/quizzer" target="_blank">
+          <div class="src">
+            <fa-icon [icon]="faGithub"></fa-icon>
+          </div>
+        </a>
+      </div>
+    </a>
+
+    <a class="no-style-anchor" href="https://pradeeprajr93.github.io/YTDownloader/" target="_blank">
+      <div class="project">
+        <div class="img-holder">
+          <img src="assets/images/ytd.png" alt="Crypto Currencies">
+        </div>
+        <div class="heading">
+          YouTube Downloader
+        </div>
+        <div class="sub-heading">
+          A purely front end based YouTube video downloading application. <br>
+          Works completely fine with all your devices.
+        </div>
+        <div class="tags">
+          <span class="tag">
+            Angular 6
+          </span>
+          <span class="tag">
+            PWA
+          </span>
+        </div>
+        <a href="https://github.com/pradeeprajr93/YTDownloader" target="_blank">
+          <div class="src">
+            <fa-icon [icon]="faGithub"></fa-icon>
+          </div>
+        </a>
+      </div>
+    </a>
+    
+    <a class="no-style-anchor" href="https://github.com/pradeeprajr93/video-proof-reader" target="_blank">
+      <div class="project">
+        <div class="img-holder">
+          <img style="border-radius: 5px;" src="assets/images/proofread.jpg" alt="Crypto Currencies">
+        </div>
+        <div class="heading">
+          Video Proof Reader
+        </div>
+        <div class="sub-heading">
+          This Web Application uses Google's Cloud Vision API. <br> 
+          It scans frames in your video and point out misspelt words if any.
+        </div>
+        <div class="tags">
+          <span class="tag">
+            Google Cloud Vision
+          </span>
+          <span class="tag">
+            JavaScript
+          </span>
+        </div>
+        <a href="https://github.com/pradeeprajr93/video-proof-reader" target="_blank">
+          <div class="src">
+            <fa-icon [icon]="faGithub"></fa-icon>
+          </div>
+        </a>
+      </div>
+    </a>    
+
+  </div>
+  
+  <div class="project-container" *ngIf="activeState === 'design'">
+    <div class="img-container">
+      <div class="img-title">
+        Personal Design Works
+      </div>
+      <img class="shrink" src="assets/images/designer.png" alt="Developer Image">
+    </div>
+
+    <a class="no-style-anchor" href="https://drive.google.com/open?id=12dzu6vpPwOlw-m851AyECbfIDkyy67Ll" target="_blank">
+      <div class="project">
+        <div class="img-holder">
+          <img style="border-radius: 5px;" src="assets/images/uxresearch.jpg" alt="Crypto Currencies">
+        </div>
+        <div class="heading">
+          User Research
+        </div>
+        <div class="sub-heading">
+          Report Documentation for Research conducted at Amazon.com's site for shopping home products and groceries. <br>
+          I've also compared existing and future state customer journey.
+        </div>
+        <div class="tags">
+          <span class="tag">
+            Personas
+          </span>
+          <span class="tag">
+            Customer Journey
+          </span>
+        </div>
+        <a href="https://drive.google.com/open?id=12dzu6vpPwOlw-m851AyECbfIDkyy67Ll" target="_blank">
+          <div class="src">
+            <fa-icon [icon]="faReadme"></fa-icon>
+          </div>
+        </a>
+      </div>
+    </a>    
+
+    <div class="video-holder">
+      <iframe id="video-4" class="videos" width="560" height="315" src="https://www.youtube.com/embed/lJ71bwSkKbs" frameborder="0" 
+      allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-holder">
+      <iframe id="video-1" class="videos" width="560" height="315" src="https://www.youtube.com/embed/GYtTVh5hw4M" frameborder="0"
+      allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-holder">
+      <iframe id="video-2" class="videos" width="560" height="315" src="https://www.youtube.com/embed/CFDypp0xkm4" frameborder="0"
+      allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-holder">
+      <iframe id="video-3" class="videos" width="560" height="315" src="https://www.youtube.com/embed/k-HTmZKRAXM" frameborder="0"
+      allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+  </div>
+
+</section>
