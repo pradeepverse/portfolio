@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt, faBuilding } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'professional-exp',
@@ -9,6 +9,7 @@ import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 export class ProfessionalExpComponent implements OnInit {
 
   faCalendar = faCalendarAlt;
+  faBuilding = faBuilding;
 
   constructor() { }
 

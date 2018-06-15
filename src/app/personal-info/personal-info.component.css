@@ -13,6 +13,22 @@ section{
     height: 100%;
 }
 
+.down-arrow{
+    animation-name: toandfro;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes toandfro{
+    from{
+        transform: translate3d(0, 0, 0);
+    }
+    to{
+        transform: translate3d(0, 15px, 0);
+    }
+}
+
 .image-container img{
     height: 80%;
     padding: 8px;
