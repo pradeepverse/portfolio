@@ -1,0 +1,76 @@
+{
+    "experience": [
+        {
+          "companyLogo": "assets/infy-logo.png",
+          "title": "Specialist Programmer",
+          "tenure": "Mar 2020 to Present",
+          "highlights": [
+            "Designed and developed a CRM platform for a market leading US based insurance client using technologies like Angular, NodeJS, NestJS.",
+            "Worked in an agile team and familiar using tools like JIRA, BitBucket",
+            "Rated as \"Exceeded expectations\" during all my appraisal cycles till date."
+          ]
+        },
+        {
+          "companyLogo": "assets/infy-logo.png",
+          "title": "Technology Analyst",
+          "tenure": "Jan 2017 to Feb 2020",
+          "highlights": [
+            "Designed and developed multiple full-fledged web applications from scratch by mentoring a team of four.",
+            "Designed and developed a chatbot testing platform using Angular and Spring boot.",
+            "Designed and developed a sophisticated video personalization studio. It has options to add annotations on top of a video, rich timeline control options, ability to export entire configuration as JSON file, etc.",
+            "Designed and developed a rich video player with personalization options and filed a US patent for the same.",
+            "Developed various portals, demo applications for our products with complex layouts.",
+            "Interacted directly with clients from US, UK and shared deliverables on time."
+          ]
+        },
+        {
+          "companyLogo": "assets/infy-logo.png",
+          "title": "Web Developer and Designer",
+          "tenure": "Feb 2016 to Jan 2017",
+          "highlights": [
+            "Designed product portals and studio prototypes using Adobe Illustrator and Photoshop.",
+            "Designed motion graphic videos based on client requirements.",
+            "Used Adobe After Effects for designing videos.",
+            "Videos have been designed and delivered within timeline with quality."
+          ]
+        },
+        {
+          "companyLogo": "assets/infy-logo.png",
+          "title": "Systems Engineer Trainee",
+          "tenure": "Sep 2015 to Feb 2016",
+          "highlights": [
+            "Completed 6 months training at Infosys Global Training Centre, Mysore.",
+            "Trained in various technologies/tools like Python, Java, TIBCO and Web Technologies.",
+            "Completed the training with the High Performer badge."
+          ]
+        }
+    ],
+    "education": [
+        {
+          "institutionLogo": "assets/mepco-logo.png",
+          "institutionName": "Mepco Schlenk Engineering College, Sivakasi",
+          "degree": "Bachelor of Electrical and Electronics Engineering",
+          "finishedKey": "Graduated",
+          "scoreKey": "GPA",
+          "finished": "May 2015",
+          "score": "8"
+        },
+        {
+          "institutionLogo": "assets/svm-logo.png",
+          "institutionName": "Sri Vidya Mandir Matriculation School, Uthangarai",
+          "degree": "Higher Secondary Education - 12th Grade",
+          "finishedKey": "Completed",
+          "scoreKey": "Percentage",
+          "finished": "March 2011",
+          "score": "94.3%"
+        }
+    ],
+    "personal_details": {
+        "name": "",
+        "current_role": "",
+        "joining_date": "9/21/2015",
+        "mobile_number": "",
+        "email_id": "",
+        "current_location": ""
+    }
+}
